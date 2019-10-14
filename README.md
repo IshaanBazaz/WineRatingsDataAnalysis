@@ -1,10 +1,8 @@
-# WineRatingsDataAnalysis #
-
 Hotel TULIP would like to review the menu and tempt any guest with delightful wines. The hotel’s CIO, Dr Bear Guts (not Bill Gates!), believes that ratings provided by the WineEnthusiast (a multichannel marketer of a growing line of wine) are great resources to help their Market Promotion Division to identify potential excellent wine with affordable price. Hence, Hotel TULIP would like to analyze a wine rating dataset and discover taste and price patterns of different types of wine over the world.
 
 Two tasks were completed:
 
-# Task 1 : Numeric and Categorical Value Analysis
+## Task 1 : Numeric and Categorical Value Analysis
 
 For a data scientist, after obtaining the dataset, the first most crucial task is to obtain a
 good understanding of the data he or she is dealing with. This includes: examining the
@@ -36,7 +34,7 @@ country
 
 AvgPrice – listing the average price (rounded to 2 decimal places) of wine in that country
 
-# Task 2 : Text Analysis
+## Task 2 : Text Analysis
 
 In this task, we are required to write Python code to extract keywords from the
 “description” column of the json data, used to redesign the wine menu for Hotel
