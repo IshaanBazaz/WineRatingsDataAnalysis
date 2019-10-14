@@ -1,5 +1,7 @@
 Hotel TULIP would like to review the menu and tempt any guest with delightful wines. The hotel’s CIO, Dr Bear Guts (not Bill Gates!), believes that ratings provided by the WineEnthusiast (a multichannel marketer of a growing line of wine) are great resources to help their Market Promotion Division to identify potential excellent wine with affordable price. Hence, Hotel TULIP would like to analyze a wine rating dataset and discover taste and price patterns of different types of wine over the world.
 
+The code and other resources can be found when you view this project on GitHub.
+
 Two tasks were completed:
 
 ## Task 1 : Numeric and Categorical Value Analysis
