@@ -4,7 +4,7 @@ Hotel TULIP would like to review the menu and tempt any guest with delightful wi
 
 Two tasks were completed:
 
-##Task 1 : Numeric and Categorical Value Analysis
+# Task 1 : Numeric and Categorical Value Analysis
 
 For a data scientist, after obtaining the dataset, the first most crucial task is to obtain a
 good understanding of the data he or she is dealing with. This includes: examining the
@@ -13,7 +13,7 @@ type for each field, and from this information, determining suitable numerical/v
 descriptions.
 The first task is to read the json file as a Pandas DataFrame and delete the rows
 which contain invalid values in the attributes of “points” and “price”.
-Then, you need to answer the following two questions in your IPython notebook based
+Then, we need to answer the following two questions in our IPython notebook based
 on this dataset:
 
 (1) what are the 10 varieties of wine which receives the highest number of reviews?
@@ -23,7 +23,7 @@ at least 90? Assuming there is no duplicate review in the data, i.e., each row r
 a unique wine.
 
 
-In addition, you need to group all reviews by different countries and generate a statistic
+In addition, we need to group all reviews by different countries and generate a statistic
 table, and save as a csv file named “statisticByState.csv”. The table must have four
 columns:
 
@@ -36,5 +36,22 @@ country
 
 AvgPrice – listing the average price (rounded to 2 decimal places) of wine in that country
 
-Based on this table, which country/countries would you recommend Hotel TULIP to
-source wine from? Please state your reasons.
+# Task 2 : Text Analysis
+
+In this task, we are required to write Python code to extract keywords from the
+“description” column of the json data, used to redesign the wine menu for Hotel
+TULIP.
+We need to generate two txt files:
+
+HighFreq.txt This file contains the frequent unigrams that appear in more than 5000
+reviews (one row in the dataframe is one review).
+
+Shirazkey.txt This file contains the key unigrams with tf-idf score higher than 0.4.
+
+To reduce the runtime, first we need to extract the description from the variety of
+“Shiraz”, and then calculate tf-idf score for the unigrams in these descriptions
+only.
+In both txt files, all unigrams are sorted alphabetically and are saved line by line
+without duplicate. Before we calculate the unigram frequent or tf-idf, we need to
+remove the stop words in all description using the provided “stopwords.txt” or using
+the built-in function in Python.
